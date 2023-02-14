@@ -1,6 +1,3 @@
-# Explorando Padrões de Projetos na Prática com Java
+# Através deste projetos exploramos como utilizar nossa rest api com swagger <br>
+Definimos Métodos get, put, post e delete para nos auxiliar na manipulação de usuários na api. 
 
-Repositório com as implementações dos padrões de projeto explorados no Lab "Explorando Padrões de Projetos na Prática com Java". Especificamente, este projeto explorou alguns padrões usando o Spring Framework, são eles:
-- Singleton
-- Strategy/Repository
-- Facade
