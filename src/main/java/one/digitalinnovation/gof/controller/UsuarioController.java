@@ -13,7 +13,7 @@ import java.util.List;
 public class UsuarioController {
     @Autowired
     private UserRepository repository;
-
+    
     @PostMapping("/usuarios")
     public void post(@RequestBody Usuario usuario){
         repository.save(usuario);
@@ -34,4 +34,5 @@ public class UsuarioController {
     public void delete(@PathVariable("id") Integer id){
         repository.remove(id);
     }
+    
 }
